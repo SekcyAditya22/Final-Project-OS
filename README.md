@@ -1,9 +1,3 @@
-* SYSADMIN
-  1. Menginstall Web Server LAMP menggunakan web server apache2
-  2. Kemudian diikuti dengan service berupa ssh dan ftp serta virtual dns dan web yang saya buat
-  3. Saya menggunakan web server untuk web html.
-  4. Yang diatas sudah saya lakukan semua.
-  5. Sudah berjalan secara lokal area saja
 
 * OS SERVER
   Untuk Operasi Sistem yang digunakan menggunakan Linux Ubuntu 20.04, karena yang lebih ringan dan sudah lumayan lengkap untuk digunakan. 
