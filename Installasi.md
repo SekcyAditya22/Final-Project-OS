@@ -4,10 +4,10 @@ NIM   : 22.83.0885
 - Installasi Web Server Ubuntu
 
 1. Update dan upgrade ubuntu terlebih dahulu
-```bash
+```bash```
 sudo apt update
 sudo apt upgrade 
-```
+```bash```
 
 2. Install Apache2 untuk Web Servernya
 ```bash
