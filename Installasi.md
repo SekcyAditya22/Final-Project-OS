@@ -1,23 +1,23 @@
 NAMA  : Muhammad Aditya Madjid
 NIM   : 22.83.0885
 
-Disini saya ingin menampilkan Pemeseanan Portofolio Web saya menggunakan WebServer Apache2. Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
+  Disini saya ingin menampilkan Pemeseanan Portofolio Web saya menggunakan WebServer Apache2. Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
 
-- Web Server
-- Beberapa Service (SSH, FTP, Monitoring Grafana, )
-- ✨Portofolio WEB ✨
+  - Web Server
+  - Beberapa Service (SSH, FTP, Monitoring Grafana, )
+  - ✨Portofolio WEB ✨
   
 1. Update dan upgrade ubuntu terlebih dahulu
-  ```bash
-  sudo apt update
-  sudo apt upgrade 
-  ```
+   ```bash
+   sudo apt update
+   sudo apt upgrade 
+   ```
 
 2. Install Apache2 untuk Web Servernya
-  ```bash
-  sudo apt install apache2
-  ```
-  Test pada Browser apakah sudah terkoneksi.
+   ```bash
+   sudo apt install apache2
+   ```
+   Test pada Browser apakah sudah terkoneksi.
 
 3. Install Tambahan untuk libapache2 PHP Mysql
    ```bash
