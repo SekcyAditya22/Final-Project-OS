@@ -1,3 +1,5 @@
+22.83.0885_Muhammad Aditya Madjid
+
 - Final Project OS SERVER
   - Untuk Operasi Sistem yang digunakan menggunakan Linux Ubuntu 20.04, karena yang lebih ringan dan sudah lumayan lengkap untuk digunakan.
 
