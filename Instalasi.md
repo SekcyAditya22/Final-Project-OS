@@ -95,10 +95,29 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
 
 1. Install Service SSH pada Ubuntu
    ```bash
-   sudo apt install ssh
+   sudo apt install openssh-server
    ```
 
-2. 
+2. Mengizinkan Firewall untuk SSH dengan port 22 dan 22/tcp
+   ```bash
+   ufw allow 22
+   ufw allow 22/tcp
+   ```
+
+3. Konfigurasi SSH sesuai keinginan pada:
+   ```bash
+   nano /etc/ssh/sshd_config
+   ```
+   Dapat disetting PermitLogin root atau Pengubahan Port yang diinginkan
+
+4. Start, Enable, Restart SSH
+   ```bash
+   systemctl start ssh
+   systemctl enable ssh
+   systemctl restart ssh
+   ```
+
+
 
     
 
