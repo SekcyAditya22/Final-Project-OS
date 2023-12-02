@@ -118,6 +118,50 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
    systemctl restart ssh
    ```
 
+## Instalasi FTP
+
+1. Install service FTP pada Ubuntu
+   ```bash
+   sudo apt install vsftpd
+   ```
+
+2. Backup FTP Original terlebih dahulu
+   ```bash
+   sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
+   ```
+
+3. Konfigurasi FTP
+   ```bash
+   nano /etc/vsftpd.conf
+   ```
+
+   - Izinkan agar Users dapat upload file
+     ```nano
+     write_enable=YES
+     ```
+   - Nonaktifkan Anonymous login
+     ```nano
+     anonymous_enable=NO
+     ```
+   - Mengaktifkan Local users untuk login
+     ```nano
+     local_enable=YES
+     ```
+
+4. Mengizinkan Firewall untuk FTP dengan port 21 dan port 21/tcp
+   ```bash
+   ufw allow 21
+   ufw allow 21/tcp
+   ```
+
+5. Start, Enable, dan Restart FTP
+   ```bash
+   systemctl start vsftpd
+   systemctl enable vsftpd
+   systemctl restart vsftpd
+   ```
+
+##
 
 
     
