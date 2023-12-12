@@ -14,7 +14,7 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
 - Web Server (Apache2, MySQL, PHP)
 - SSH
 - FTP
-- Montitoring Server
+- 
 - 
 
 ### Instalasi Web Server
