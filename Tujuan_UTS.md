@@ -26,13 +26,6 @@ Lalu dilanjutkan dengan beberapa service yang diperlukan.
 - FTP
    - Mentransfer data html dan lainnya agar memudahkan saya untuk melakukan pertukaran data yang banyak. (Menggunakan vsftpd pada Linux Ubuntu)
 
-- DNS
-   - Pemberian Domain Name Server yang berfungsi untuk memberikan nama domain pada ip browser html saya. (Menggunakan Bind9)
 
-- Monitoring Server
-   - Untuk memantau aktivitas server baik log server maupun memantau hardware pada server. (Menggunakan Prometheus, promtail, dan Grafana).
-
-- Service HTML optional
-   - Menggunakan SSL untuk mengamankan dan mengenkripsi web.
 
   
