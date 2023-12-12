@@ -17,7 +17,7 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
 - Montitoring Server
 - 
 
-## Instalasi Web Server
+### Instalasi Web Server
 
 1. Update dan upgrade ubuntu terlebih dahulu
    ```bash
@@ -92,7 +92,7 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
     systemctl restart phpmyadmin
     ```
 
-## Instalasi SSH
+### Instalasi SSH
 
 1. Install Service SSH pada Ubuntu
    ```bash
@@ -161,7 +161,7 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
    systemctl restart vsftpd
    ```
 
-##
+### 
 
 
     
