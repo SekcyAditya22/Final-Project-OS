@@ -3,7 +3,7 @@ NAMA  : Muhammad Aditya Madjid
 NIM   : 22.83.0885
 
 Menampilkan Pemeseanan Portofolio Web saya menggunakan WebServer dan Lainnya.
-Saya memiliki Server Ubuntu dengan IP : 147.139.214.214
+Saya memiliki Server Ubuntu dengan IP : 147.139.214.214. Lalu dapat diakses dengan http://adityamadjid.shop
 
 - ✨Portofolio WEB ✨
 - HTML
