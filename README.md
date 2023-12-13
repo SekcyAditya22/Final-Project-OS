@@ -8,14 +8,14 @@ Saya memiliki Server Ubuntu dengan IP : 147.139.214.214. Lalu dapat diakses deng
 - ✨Portofolio WEB ✨
 - HTML
 - CRUD
+- VPS 
 
 ## Service
 
 - Web Server (Apache2, MySQL, PHP)
 - SSH
 - FTP
-- 
-- 
+- DNS DOMAIN (Niagahoster 8k)
 
 ### Instalasi Web Server
 
